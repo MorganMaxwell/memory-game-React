@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Fred",
+        "picture": "./images/fred.png"
+    },
+    {
+        "name": "Daphne",
+        "picture": "./images/daphne.png"
+    },
+    {
+        "name": "Velma",
+        "picture": "./images/velma.png"
+    },
+    {
+        "name": "Shaggy",
+        "picture": "./images/shaggy.png"
+    },
+    {
+        "name": "Scooby-Doo",
+        "picture": "./images/scooby-doo.png"
+    },
+    {
+        "name": "Zombie",
+        "picture": "./images/zombie.png"
+    },
+    {
+        "name": "Creeper",
+        "picture": "./images/creeper.png"
+    }
+]
