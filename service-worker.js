@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/MorganMaxwell/memory-game-React/precache-manifest.562960c5322c11d0a5f51f975468f372.js"
+  "/MorganMaxwell/memory-game-React/precache-manifest.a560c691c5b40e0a52c8a21c8b940823.js"
 );
 
 workbox.clientsClaim();

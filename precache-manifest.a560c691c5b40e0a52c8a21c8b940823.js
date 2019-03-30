@@ -16,19 +16,19 @@ self.__precacheManifest = [
     "url": "/MorganMaxwell/memory-game-React/static/js/runtime~main.ea13a993.js"
   },
   {
-    "revision": "b64bdd169527512d83ef",
-    "url": "/MorganMaxwell/memory-game-React/static/js/main.935c8f7b.chunk.js"
+    "revision": "ce69a899b2153a8a07cf",
+    "url": "/MorganMaxwell/memory-game-React/static/js/main.d28e9f53.chunk.js"
   },
   {
     "revision": "1601b01c9cbe81f35c0e",
     "url": "/MorganMaxwell/memory-game-React/static/js/2.32dd646d.chunk.js"
   },
   {
-    "revision": "b64bdd169527512d83ef",
-    "url": "/MorganMaxwell/memory-game-React/static/css/main.0d77f551.chunk.css"
+    "revision": "ce69a899b2153a8a07cf",
+    "url": "/MorganMaxwell/memory-game-React/static/css/main.626c21d3.chunk.css"
   },
   {
-    "revision": "7f71e84f02fb2f5679d856898e0118b7",
+    "revision": "9a9ba6827b6cef4ca3c9a446487f2a37",
     "url": "/MorganMaxwell/memory-game-React/index.html"
   }
 ];
