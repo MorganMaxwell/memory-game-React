@@ -2,7 +2,7 @@ import React from 'react';
 
 function ImageBox(props) {
     return (
-        <div>
+        <div className="imageBox">
             {props.children}
         </div>
     )

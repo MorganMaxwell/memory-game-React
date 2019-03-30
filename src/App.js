@@ -34,6 +34,7 @@ class App extends Component {
       },
     ]
   };
+  
   shuffle = a => {
     return a.reduce((l, e, i) => {
       const j = Math.floor(Math.random() * (a.length - i) + i); // j is in [i, a.length[
