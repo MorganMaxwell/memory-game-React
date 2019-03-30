@@ -1,8 +1,10 @@
 {
   "name": "memory-game-react",
   "version": "0.1.0",
+  "homepage": "https://github.com/MorganMaxwell/memory-game-React",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-scripts": "2.1.8"
