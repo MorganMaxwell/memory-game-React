@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import './App.css';
 import Container from './components/Container/Container';
 import Row from './components/Row/Row';
@@ -35,6 +34,13 @@ class App extends Component {
       },
     ]
   };
+  shuffle = a => {
+    return a.reduce((l, e, i) => {
+      const j = Math.floor(Math.random() * (a.length - i) + i); // j is in [i, a.length[
+      [a[i], a[j]] = [a[j], a[i]];
+      return a;
+    }, a);
+  };
 
   handleClick = event => {
     if (event.target.clicked) {
@@ -44,15 +50,24 @@ class App extends Component {
     else {
       this.setState({
         score: this.state.score + 1
-      });
+      }, () => this.scoreCheck());
       event.target.clicked = true;
+      this.shuffle(this.state.characters);
     };
   };
 
+  componentDidUpdate(prevProps) {
+    // Typical usage (don't forget to compare props):
+    if (this.props.score !== prevProps.userID) {
+      this.fetchData(this.props.userID);
+    }
+  }
+
   scoreCheck = () => {
-    console.log("score change works");
+    console.log(this.state.score);
     if (this.state.score === 5) {
       alert("You've clicked all the characters! You Win!");
+      window.location.reload();
     };
   };
 
@@ -62,7 +77,6 @@ class App extends Component {
         <Row>
           <ScoreCounter
             score={this.state.score}
-            onChange={this.scoreCheck}
           />
           <ImageBox>
             {this.state.characters.map(character => (
